@@ -3,13 +3,12 @@ import { ApolloServer } from "apollo-server";
 import { loadSchemaSync } from "@graphql-tools/load";
 import { addResolversToSchema } from "@graphql-tools/schema";
 import { join } from "path";
-import { Book } from "./types/__generated__/graphql";
 
 const schema = loadSchemaSync(join(__dirname, "./schema.graphql"), {
   loaders: [new GraphQLFileLoader()],
 });
 
-const books: Book[] = [
+const books = [
   {
     title: "The Awakening",
     author: "Kate Chopin",
