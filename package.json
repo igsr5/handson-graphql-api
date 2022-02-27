@@ -18,8 +18,10 @@
     "@graphql-tools/graphql-file-loader": "^7.3.4",
     "@graphql-tools/load": "^7.5.2",
     "@graphql-tools/schema": "^8.3.2",
+    "@prisma/client": "3.10.0",
     "apollo-server": "^3.1.1",
-    "graphql": "^15.5.1"
+    "graphql": "^15.5.1",
+    "prisma": "^3.10.0"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^2.6.2",
